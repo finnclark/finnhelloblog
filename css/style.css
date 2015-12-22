@@ -1,0 +1,200 @@
+@font-face {
+	font-family: 'sailec-reg';
+	src: url(../fonts/Sailec-Regular.otf);
+}
+
+@font-face {
+	font-family: 'sailec-bold';
+	src: url(../fonts/Sailec-Bold.otf);
+}
+
+h1, i{
+	font-family: 'sailec-bold', Arial, Sans-serif;
+	font-size: 44px;
+	font-style: normal;
+	line-height: 1.2;
+	text-align: right;
+	color: #FC232B;
+}
+
+h2{
+	font-family: 'sailec-bold', Arial, Sans-serif;
+	font-size: 38px;
+	line-height: 1.2;
+	text-align: left;
+	color: #121212;
+	margin: 0 0 5px 0;
+
+	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
+    transition: all 300ms;
+}
+
+h3{
+	font-family: 'capitolium-news-2', Garamond, serif;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 1.2;
+	text-align: left;
+	color: #121212;
+	margin: 0;
+
+	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
+    transition: all 300ms;
+}
+
+p{
+	font-family: 'capitolium-news-2', Garamond, serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.2;
+	text-align: left;
+	color: #121212;
+}
+
+a{
+	font-family: 'capitolium-news-2', Garamond, serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #121212;
+}
+a:hover{
+	text-decoration: none;
+	color: #FC232B;
+}
+
+
+
+li{
+	list-style-type: none;
+}
+
+
+a:hover > h1, a:hover > h2, a:hover > h3{
+	color: #f5f5f5;
+}
+
+p a{
+	color: #FC232B;
+}
+
+body{
+	background-color: #fafafa;
+}
+
+
+/* index.html */
+
+
+
+.container-fluid{
+	margin-bottom: 100px;
+}
+
+.landing-header{
+	height: 100vh;
+	width: 100vw;
+	margin-bottom: -80px;
+}
+
+.landing-header div{
+	float: right;
+	margin: 50px 100px 0 0;
+}
+
+/**/
+
+.navigation{
+	width: 100vw;
+	height: 70px;
+	background-color: #ffffff;
+	/*border-top: 5px solid #FC232B;*/
+	position: fixed;
+	bottom: 0;
+}
+
+.navigation ul{
+	float: right;
+	margin-right: 85px;
+	margin-top: 22px;
+}
+
+.navigation li{
+	padding: 0 15px;
+	display: inline-block;
+}
+
+
+/**/
+
+
+.post div{
+	width: 100vw;
+	height: auto;
+	background-color: #ffffff;
+	margin: 0 -15px 10px;
+	padding: 0 25%;
+
+	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
+    transition: all 300ms;
+}
+
+.post:hover > div{
+	background-color: #FC232B;
+
+	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
+    transition: all 300ms;
+}
+
+.post:hover h2, .post:hover h3{
+	color: #f5f5f5;
+
+	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
+    transition: all 300ms;
+}
+
+.post h2{
+	padding-top: 40px;
+}
+
+.post h3{
+	padding-bottom: 36px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
