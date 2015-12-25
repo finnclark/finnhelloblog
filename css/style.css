@@ -182,15 +182,10 @@ body{
 		float: none;
 		padding: 0;
 		margin-right: 0;
-		margin-top: 26px;
 	}
 
 	.navigation li{
 		padding: 0 10px;
-	}
-
-	.navigation li a{
-		font-size: 14px;
 	}
 
 }
