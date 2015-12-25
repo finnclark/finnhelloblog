@@ -44,9 +44,9 @@ h3{
 
 p{
 	font-family: 'capitolium-news-2', Garamond, serif;
-	font-size: 13px;
+	font-size: 17px;
 	font-weight: 400;
-	line-height: 1.2;
+	line-height: 1.4;
 	text-align: left;
 	color: #121212;
 }
@@ -127,7 +127,7 @@ body{
 /**/
 
 
-.post div{
+.post-home div{
 	width: 100vw;
 	height: auto;
 	background-color: #ffffff;
@@ -138,31 +138,58 @@ body{
     transition: all 300ms;
 }
 
-.post:hover > div{
+.post-home:hover > div{
 	background-color: #FC232B;
 
 	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
     transition: all 300ms;
 }
 
-.post:hover h2, .post:hover h3{
+.post-home:hover h2, .post-home:hover h3{
 	color: #f5f5f5;
 
 	-webkit-transition: all 300ms; /* For Safari 3.1 to 6.0 */
     transition: all 300ms;
 }
 
-.post h2{
+.post-home h2{
 	padding-top: 40px;
 }
 
-.post h3{
+.post-home h3{
 	padding-bottom: 36px;
 }
 
 
 
 
+@media (max-width: 470px){
+
+	.post-home h2{
+		font-size: 24px;
+	}
+
+	.post-home h3{
+		font-size: 16px;
+	}
+
+	.navigation ul{
+		text-align: center;
+		float: none;
+		padding: 0;
+		margin-right: 0;
+		margin-top: 23px;
+	}
+
+	.navigation li{
+		padding: 0 10px;
+	}
+
+	.navigation li a{
+		font-size: 14px;
+	}
+
+}
 
 
 
@@ -172,6 +199,59 @@ body{
 
 
 
+
+
+/* - - - - - - -  P O S T   P A G E - - - - - - - - */
+
+
+.post-container{
+	padding: 140px 31.5%;
+}
+
+.post-container h3{
+	margin-bottom: 80px;
+}
+
+.post-container img{
+	max-width: 100%;
+	max-height: 100%;
+	width: auto;
+	height: auto;
+	padding: 40px 0;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 850px){
+
+	.post-container{
+		padding: 100px 20%;
+	}
+
+}
+
+
+@media (max-width: 650px){
+
+	.post-container{
+		padding: 100px 16%;
+	}
+
+}
+
+@media (max-width: 420px){
+
+	.post-container{
+		padding: 50px 10%;
+	}
+
+}
 
 
 
