@@ -76,7 +76,7 @@ a:hover > h1, a:hover > h2, a:hover > h3{
 p a{
 	color: #FC232B;
 	font-weight: 400 !important;
-	text-decoration: underline;
+	border-bottom: 2px solid #FC232B;
 }
 
 body{
