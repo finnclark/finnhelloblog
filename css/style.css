@@ -163,6 +163,16 @@ body{
 	padding-bottom: 36px;
 }
 
+.previous{
+	margin-top: 60px;
+	float: left;
+}
+
+.next{
+	margin-top: 60px;
+	float: right;
+}
+
 
 
 
