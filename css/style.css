@@ -164,12 +164,12 @@ body{
 }
 
 .previous, .previous h3{
-	margin: 60px 0 0 0 !important;
+	margin: 30px 0 0 0 !important;
 	float: left;
 }
 
 .next, .next h3{
-	margin: 60px 0 0 0 !important;
+	margin: 30px 0 0 0 !important;
 	float: right;
 }
 
